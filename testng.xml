@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="4" name="Homepage Test">
+        <classes>
+            <class name="com.iati.tests.HomePageTest">
+                <!--<methods>
+                    <include name="checkIATILogoTest"/>
+                    <include name="validateNavMenuList"/>
+                    <include name="validateSignInHeader"/>
+                    <include name="validateUsernameTitle"/>
+                    <include name="validatePasswordTitle"/>
+                    <include name="validateForgotPasswordDescription"/>
+                    <include name="validateLanguageList"/>
+                    <include name="verifyIATIHeader"/>
+                    <include name="verifySignInFormTitle"/>
+                    <include name="verifyWelcomeTextDescription"/>
+                    <include name="IATI3_validateIncorrectUsernameTest"/>
+                    <include name="IATI4_validateIncorrectPasswordTest"/>
+                    <include name="IATI26_verifyCaseSensitiveTest"/>
+                    <include name="IATI2_validateBlankFieldSignInTest"/>
+                    <include name="validateSignInDescription"/>
+                    <include name="verifyIATIPublisherTitle"/>
+                    <include name="verifyIATIPublisherList"/>
+                    <include name="verifyIATIStandardTitle"/>
+                    <include name="verifyIATIPublisherStandardList"/>
+                    <include name="verifyFooterNote"/>
+                    <include name="checkSupportMail"/>
+                    <include name="verifyFooterCopyrightText"/>
+                    <include name="IATI1_successfulSignInTest"/>
+                </methods>-->
+            </class>
+        </classes>
+    </test>
+
+
+    <test verbose="5" name="CommonNavBar Test">
+        <classes>
+            <class name="com.iati.tests.CommonNavBarTest">
+                <!-- <methods>
+                     <include name="checkIATIPubLogo"/>
+                     <include name="validateLanguageList"/>
+                     <include name="validatePageList"/>
+                     <include name="validateAddActivity"/>
+                     <include name="validateProfileMenuList"/>
+                     <include name="logout"/>
+                 </methods>-->
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="Activity page Test">
+        <classes>
+            <class name="com.iati.tests.ActivityPageTest">
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="5" name="Activity Detail Test">
+        <classes>
+            <class name="com.iati.tests.ActivityPageDetailTest">
+
+            </class>
+        </classes>
+    </test>
+
+
+    <test verbose="5" name="Other Identifier element Test">
+        <classes>
+            <class name="com.iati.tests.OtherIdentifierTest">
+                <!--    <methods>
+                        <include name="goToOtherIdentifier"/>
+                        <include name="validateOtherIdentifierTitle"/>
+                        <include name="validateOtherIdentifierRefLabel"/>
+                        <include name="validateOtherIdentifierTypeLabel"/>
+                        <include name="validateOtherIdentifierTypeList"/>
+                        <include name="validateOtherIdentifierOwnerOrgTitle"/>
+                        <include name="validateOtherIdentifierOwnerOrgFieldLabels"/>
+                        <include name="validateFilledOtherIdentifierForm"/>
+                    </methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>
+
+
+
